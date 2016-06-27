@@ -1,0 +1,61 @@
+﻿/*reset css*/
+html,body{
+    height:100%;
+}
+*,
+::before,
+::after{
+    padding: 0;
+    margin: 0;
+    /*需要针对移动设备做设置*/
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    font-family: "microsoft YaHei","sans-serif";/*使用移动端默认的字体*/
+    color: #333;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+a:hover{
+    color: #333;
+
+}
+ol,ul{
+    list-style: none;
+}
+h1,h2,h3,p {
+    margin: 0;
+    padding: 0;
+}
+input,textarea{
+    border: none;
+    outline: none;
+    resize: none;
+    /*但是在移动设备当中 有一些浏览器是会有自己的默认样式*/
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.f_l {
+	float: left;
+}
+.f_r {
+	float: right;
+}
+.b_r {
+    border-right: 1px solid #ddd;
+}

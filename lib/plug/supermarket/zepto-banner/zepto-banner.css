@@ -1,0 +1,36 @@
+.supermarket-banner{
+    position: relative;
+}
+.supermarket-banner .box{
+    overflow: hidden;
+}
+.supermarket-banner .box ul{
+    position: relative;
+}
+.supermarket-banner li{
+    float:left;
+}
+.supermarket-banner img{
+    width:100%;
+}
+.supermarket-banner nav{
+    position: absolute;
+    z-index:99;
+    right:10px;
+    bottom: 10px;
+    z-index: 99;
+
+}
+.supermarket-banner nav i{
+    float:left;
+    display: block;
+    width:8px;
+    height:8px;
+    background:#fff;
+    border-radius: 100%;
+    margin-left:5px;
+    cursor: pointer;
+}
+.supermarket-banner i.cur{
+    background:red;
+}

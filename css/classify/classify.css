@@ -1,0 +1,116 @@
+body,html {
+    width: 100%;
+    height: 100%;
+    /*overflow-y: scroll;/!*隐藏y滚动条*!/*/
+    /*font-family: simsun;*/
+    /*color: #9a9a9a;*/
+}
+/*顶部start*/
+.warp{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    height: 43px;
+    line-height: 44px;
+    background: #EEE;
+    border-bottom: 1px solid #E1E1E1;
+    min-width: 300px;
+}
+.header h1{
+    width: 23%;
+    height: 43px;
+    font-size: 14px;
+    font-weight: 100;
+    text-align: center;
+}
+/*顶部end*/
+
+/*内容左侧部分 start*/
+.content{
+    height: 100%;
+}
+.main-left{
+    width: 23%;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+}
+.main-left li{
+    /*width: 95px;*/
+    height: 60px;
+    text-align: center;
+    background: #FFF;
+    line-height: 60px;
+    border-bottom: 1px solid #E1E1E1;
+    border-right: 1px solid #E1E1E1;
+    cursor: pointer;
+    color: #000;
+}
+.main-left .current{
+    border-left: 3px solid #c00000;
+    color: #c00000;
+    border-right: none;
+    background: #f0f0f0;
+    padding-right: 3px;
+}
+.main-left-ul{
+    background: #f0f0f0;
+}
+/*内容左侧部分 end*/
+
+/*内容右侧部分 start*/
+.main-right{
+    float: left;
+    width: 77%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #f0f0f0;
+}
+.main-content{
+    height: 100%;
+    padding: 10px 0  0 13px;
+}
+.tab-list h2{
+    font-size: 14px;
+    line-height: 14px;
+    color: #9b9b9b;
+    padding: 15px 0;
+}
+.tab-list li{
+    float: left;
+    width: 30.333%;
+    margin: 5px 3% 5px 0;
+    background: #FFF;
+}
+.tab-list li:last-child{
+    /*width: 30.333%;*/
+    margin: 5px 0 5px 0;
+}
+.tab-list li:nth-child(3){
+    /*width: 30.333%;*/
+    margin: 5px 0 5px 0;
+}
+.tab-list li a p{
+    text-align: center;
+}
+.tab-list li a{
+    display: block;
+}
+.tab-img{
+    width: 76%;
+    margin: auto;
+    /*background-size: 50%;*/
+}
+.tab-img img{
+    width: 100%;
+    height: 100%;
+}
+.tab-p{
+    height: 23px;
+    line-height: 23px;
+    /*padding: 4px 0;*/
+    color: #5D5D5D;
+}
+/*内容右侧部分 end*/

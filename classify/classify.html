@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0"/>
+    <title>分类导航</title>
+    <link rel="stylesheet" href="../css/common/base.css"/>
+    <link rel="stylesheet" href="../css/classify/classify.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="../images/classify/favicon.ico"/>
+    <script src="../lib/zepto/zepto.min.js"></script>
+    <script src="../lib/zepto/fx.js"></script>
+    <script src="../lib/zepto/selector.js"></script>
+    <script src="../lib/zepto/touch.js"></script>
+    <script src="../js/classify/classify.js"></script>
+    <!--<script src="../js/classify/dd.js"></script>-->
+    <!--<script src="../js/classify/test.js"></script>-->
+</head>
+<body>
+    <div class="warp">
+        <!-- 顶部start-->
+        <div class="header">
+            <h1>全部分类</h1>
+        </div>
+        <!-- 顶部end-->
+
+        <!-- 分类内容start-->
+        <div class="content clearfix">
+            <div class="main-left">
+                <ul class="main-left-ul">
+                    <li class="current">为您推荐</li>
+                    <li>国际大牌</li>
+                    <li>天猫国际</li>
+                    <li>女装</li>
+                    <li>女鞋</li>
+                    <li>男装</li>
+                    <li>男鞋</li>
+                    <li>内衣</li>
+                    <li>母婴</li>
+                    <li>数码</li>
+                    <li>家电</li>
+                    <li>美妆</li>
+                    <li>箱包</li>
+                    <li>运动</li>
+                    <li>户外</li>
+                    <li>家装</li>
+                    <li>家纺</li>
+                    <li>居家</li>
+                    <li>饰品</li>
+                    <li>食品</li>
+                    <li>生鲜</li>
+                    <li>汽车</li>
+                    <li>医药</li>
+                    <li>图书</li>
+                    <li>通信</li>
+                    <li>洗护</li>
+                </ul>
+            </div>
+            <div class="main-right">
+                <div class="main-content">
+                    <ul>
+                        <li>
+                            <div class="tab-list">
+                                <h2>为您推荐</h2>
+                                <ul class="clearfix">
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/tel.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">手机配件</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/makeup.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">官方直售</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/bed.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">床</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/fan.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">空调扇</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/xiezi.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">圆头鞋</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/diannao.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">DIY电脑</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-list">
+                                <h2>数码</h2>
+                                <ul class="clearfix">
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/bijiben.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">笔记本</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/pingban.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">平板电脑</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/bangong.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">办公设备</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/chongdianbao.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">移动电源</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/zineng.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">智能穿戴</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/jianpan.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">键盘</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-list">
+                                <h2>家电</h2>
+                                <ul class="clearfix">
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/tixudao.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">剃须刀</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/jingshuiqi.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">净水器</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/dianfanbao.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">电饭煲</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/saodi.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">扫地机器人</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/liaoliji.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">料理机</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/xichenqi.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">吸尘器</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-list">
+                                <h2>家电</h2>
+                                <ul class="clearfix">
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/tixudao.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">剃须刀</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/jingshuiqi.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">净水器</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/dianfanbao.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">电饭煲</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/saodi.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">扫地机器人</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/liaoliji.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">料理机</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/xichenqi.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">吸尘器</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-list">
+                                <h2>家电</h2>
+                                <ul class="clearfix">
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/tixudao.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">剃须刀</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/jingshuiqi.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">净水器</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/dianfanbao.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">电饭煲</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/saodi.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">扫地机器人</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/liaoliji.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">料理机</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/xichenqi.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">吸尘器</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-list">
+                                <h2>家电</h2>
+                                <ul class="clearfix">
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/tixudao.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">剃须刀</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/jingshuiqi.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">净水器</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/dianfanbao.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">电饭煲</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/saodi.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">扫地机器人</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/liaoliji.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">料理机</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <div class="tab-img">
+                                                <img src="../images/classify/xichenqi.jpg_.webp" alt=""/>
+                                            </div>
+                                            <p class="tab-p">吸尘器</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 分类内容end-->
+    </div>
+
+
+    <script>
+        $(function () {
+//            var ret = new $.Classify('.main-left-ul');
+            var ret = new $.Classify('y','.main-left-ul','.main-left');
+        });
+    </script>
+</body>
+</html>

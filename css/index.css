@@ -1,0 +1,342 @@
+@charset "UTF-8";
+body {
+	background: #f0f0f0;
+}
+.tm_layout {
+	width: 100%;
+	min-width: 320px;
+}
+/*轮播图start*/
+.tm_banner {
+	width: 100%;
+	/*height: 224px;*/
+	background: red;
+	overflow: hidden;
+	position: relative;
+}
+.tm_banner ul>li {
+	float: left;
+	/*height: 224px;*/
+}
+.tm_banner ul>li>a {
+    display: block;
+    width: 100%;
+    /*height: 100%;*/
+}
+.tm_banner ul>li img {
+	width: 100%;
+	display: block;
+	/*height: 100%;*/
+}
+.tm_banner ol {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform:translateX(-50%);
+	bottom: 5%;
+}
+.tm_banner ol>li {
+	float: left;
+	width: 8px;
+	height: 8px;
+	margin: 0 2px;
+	border-radius: 4px;
+	background: rgba(0,0,0,0.5);
+}
+.tm_banner ol>li.current {
+	background: #fff;
+}
+/*轮播图end*/
+/*搜索框start*/
+.tm_search_top {
+	width: 100%;
+	height: 45px;
+	position: fixed;
+	background: linear-gradient(
+		to bottom,
+		rgba(0,0,0,0.5),
+		rgba(0,0,0,0)
+      );
+	z-index: 100;
+	top: 0;
+}
+.tm_top_icon {
+	background: url(../images/index/icon.png) no-repeat 0 0;
+	background-size: 282px 31px;
+	background-clip: content-box;
+	background-origin: content-box;
+}
+.tm_search_top .cate {
+	display: block;
+	width: 60px;
+	height: 45px;
+	padding: 8px 15px 12px 20px;
+	background-position: 0 0;
+	position: absolute;
+}
+.tm_search_top .tm_search{
+	height: 45px;
+	width: 100%;
+	padding: 6px 60px 0px 60px;
+	position: relative;
+}
+.tm_search_top .tm_search>.sTxt {
+	width: 100%;
+	height: 33px;
+	border-radius: 2px;
+	padding-left: 5px;
+}
+.tm_search_top .tm_search>.searchIcon {
+	display: block;
+	position: absolute;
+	width: 35px;
+	height: 30px;
+	background-position: -76px 0;
+	top:10px;
+	right: 60px;
+}
+.tm_search_top .login {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	display: block;
+	width: 60px;
+	text-align: center;
+	line-height: 45px;
+	color: #fff;
+}
+/*搜索框 end*/
+/*分类栏 start*/
+.tm_category {
+	height: 176px;
+	width: 100%;
+	background: #fff;
+}
+.tm_category ul>li {
+	width: 20%;
+	height: 88px;
+	float: left;
+}
+.tm_category ul>li>a {
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding: 15px 10px 0px 10px;
+}
+.tm_category ul>li>a img {
+	width: 36px;
+}
+.tm_category ul>li>a span{
+	font-size: 12px;
+	display: block;
+	margin-top: 3px;
+}
+/*分类栏 end*/
+/*天猫热点 start*/
+.tm_hotView {
+	width: 100%;
+	height: 60px;
+	position: relative;
+	background: #fff;
+	border-top: 1px solid #ddd;
+}
+.tm_hotView .tm_hV_left {
+	width: 120px;
+	height: 60px;
+	position: absolute;
+	padding: 10px;
+}
+.tm_hotView .tm_hV_left img {
+	float: left;
+}
+.tm_hotView .tm_hV_left .tmH {
+	width: 65px;
+	height: 40px;
+	display: block;
+	padding-right: 10px;
+	border-right: 1px solid #ddd;
+}
+.tm_hotView .tm_hV_left .tNews {
+	width: 24px;
+	height: 24px;
+	margin-left: 5px;
+	margin-top: 8px;
+}
+.tm_hotView .tm_hV_right {
+	width: 100%;
+	height: 60px;
+	padding-left: 105px;
+	overflow: hidden;
+}
+.tm_hotView .scrollNew {
+	padding: 0 10px;
+	height: 60px;
+}
+.tm_hotView .scrollNew li {
+	padding-top: 12px;
+	height: 60px;
+	font-size: 12px;
+}
+.tm_hotView .scrollNew li .title {
+	color: #000;
+}
+.tm_hotView .scrollNew li .con {
+	color:red;
+} 
+/*天猫热点 end*/
+/*天猫直播 start*/
+.tm_online {
+	height: 113px;
+	padding:3px 0 0 0; 
+	overflow: hidden;
+}
+.tm_online .swipe {
+	width: 1000%;
+}
+.tm_online a {
+	display: block;
+	height: 110px;
+	float: left;
+}
+.tm_online a>img {
+	height: 100%;
+	width: auto;
+}
+/*天猫直播 end*/
+/*天猫分类标题 start*/
+.cate_icons {
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+}
+.tm_title {
+	height: 31px;
+	text-align: center;
+	line-height: 28px;
+}
+.tm_title .tm_cateTit {
+	vertical-align: middle;
+}
+.tm_title .line {
+	background: rgb(246, 183, 183);
+	width: 30px;
+	height: 1px;
+	display: inline-block;
+	vertical-align: middle;
+}
+/*天猫分类标题 end*/
+/*必抢 start*/
+.mustBuy ul {
+	width: 100%;
+}
+.mustBuy ul>li{
+	float: left;
+	width: 25%;
+	background: #fff;
+	text-align: center;
+	font-size: 12px;
+	padding:5px 0;
+	/*box-sizing:border-box;*/
+	border-right: 1px solid #ddd;
+}
+.mustBuy ul>li:nth-child(4n){
+	border-right: none;
+}
+.mustBuy ul>li img{
+	width: 100%;
+	height: auto;
+	box-sizing:border-box;
+	padding:8px;
+}
+.mustBuy .price {
+	color: red;
+}
+.mustBuy del {
+	color: #ccc;
+} 
+/*必抢 end*/
+/*品牌特卖 start*/
+.brand_sale a{
+	display: block;
+	width: 50%;
+}
+.brand_sale a img {
+	width: 100%;
+}
+/*品牌特卖 end*/
+/*品牌资讯 start*/
+.brand_new>a{
+	display: block;
+	width: 33.3%;
+}
+.brand_new a>img {
+	display: block;
+	width: 100%;
+}
+.brand .bn_banner {
+	width: 100%;
+}
+/*品牌资讯 end*/
+/*海购 start*/
+.aboard>a{
+	display: block;
+	width: 33.3%;
+}
+.aboard a>img {
+	display: block;
+	width: 100%;
+}
+/*海购 end*/
+/*爱生活 start*/
+.lovelife>a {
+	display: block;
+	width: 25%;
+}
+.lovelife a>img {
+	display: block;
+	width: 100%;
+}
+/*爱生活 end*/
+/*精选市场 start*/
+.sp_market>a {
+	display: block;
+	width: 25%;
+}
+.sp_market a>img {
+	display: block;
+	width: 100%;
+}
+.sp_market .o_two>a{
+	width: 50%;
+	display: block;
+}
+/*精选市场 end*/
+/*热门行业 start*/
+.hot_industry>a{
+	width: 25%;
+	font-size: 12px;
+	text-align: center;
+	display: block;
+	background: #fff;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	float: left;
+
+}
+.hot_industry>a h3 {
+	font-size: 12px;
+	font-weight: bold;
+}
+.hot_industry>a p {
+	color: #999;
+}
+.hot_industry>a>.icons_hotsale {
+	width: 36px;
+	height: 36px;
+	margin-top: 10px;
+
+}
+.hot_industry>a>img {
+	width: 100%;
+}
+/*热门行业 end*/
